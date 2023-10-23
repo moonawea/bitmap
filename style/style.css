@@ -18,6 +18,12 @@ button {
     cursor: pointer;
 }
 
+.header-button {
+    border: none;
+    background-color: white;
+    display: none;
+}
+
 /* =================section-1============ */
 .row {
     display: flex;
@@ -146,7 +152,6 @@ button {
 
 .text-car {
     background-color: #fff;
-
     border-radius: 5px;
     height: 250px;
     box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.10);
@@ -173,7 +178,6 @@ button {
     max-width: 750px;
     width: 100%;
     padding: 20px;
-
 }
 
 
@@ -198,6 +202,7 @@ button {
 
 .article-title {
     width: 614px;
+    width: 100%;
     color: #666;
     font-family: PT Sans;
     font-size: 14px;
@@ -259,6 +264,353 @@ button {
     background: #4A90E2;
     padding: 4px 18px 6px;
 }
+
+/* .mini-card {
+    display: flex;
+} */
+
+
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+    padding: 34px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.box {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.box:hover .inner-box {
+    bottom: 23px;
+    left: 22px;
+}
+
+.inner-box {
+    position: absolute;
+    bottom: -82px;
+    left: 0;
+    transition: 0.6s;
+}
+
+.inner-box p {
+    color: #fff;
+    font-weight: 400;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: normal;
+
+}
+
+.box img {
+    height: 100%;
+    object-fit: contain;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h5 {
+    color: #fff;
+    font-family: PT Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+}
+
+.box-button {
+    background-color: #4A90E2;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 12px;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    top: -23px;
+    transition: 0.6s;
+}
+
+.box:hover .box-button {
+    left: 22px;
+    top: 30px;
+}
+
+.grow-button {
+    background-color: #4A90E2;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 12px;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    top: -22px;
+    transition: 0.6s;
+}
+
+.box:hover .grow-button {
+    left: 18px;
+    top: 15px;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav a {
+    color: white;
+    text-transform: capitalize;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 15px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding: 15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 15px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 15px;
+}
+
+.col-8 .row {
+    margin: -15px;
+}
+
+.cars {
+    width: 1130px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+}
+
+.cars img {
+    max-width: 1190px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.box-card {
+    position: relative;
+    bottom: 95px;
+    left: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 34px 50px;
+}
+
+.card-button {
+    background-color: #4A90E2;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 14px;
+    position: absolute;
+    left: 50px;
+    top: 25px;
+}
+
+.card h3 {
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.card-1 img {
+    object-fit: cover;
+}
+
+.italic {
+    color: #666;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.information {
+    color: #666;
+    font-family: PT Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h4 {
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: #171717;
+    font-family: PT Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.grow-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info {
+    background-color: #171717;
+    margin-top: 125px;
+}
+
+.info-text {
+    color: #CECECE;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.icon-info {
+    display: flex;
+    gap: 10px;
+}
+
+.info-text h3 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.info-box {
+    padding-top: 65px;
+}
+
+.car {
+    display: flex;
+    gap: 20px;
+}
+
+.img-car {
+    width: 95px;
+    height: 95px;
+    padding: 0 20px 20px 0;
+}
+
+/* .car-wrapper {
+    padding-top: 65px;
+} */
+
+.headline {
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.car-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.car-info h4 {
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.car .italic {
+    font-size: 12px;
+}
+
+.input-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-text {
+    font-family: PT Sans;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: 400;
+    color: #AEB3BB;
+    background-color: #373737;
+    padding: 15px 100px 15px 15px;
+    border: none;
+}
+
+.input-button {
+    font-family: PT Sans;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 15px 65px;
+    color: #FFF;
+    font-weight: 700;
+    background-color: #232323;
+    border: none;
+}
+
+.input {
+    padding-top: 65px;
+}
+
+.header-wrapper p {
+    color: #FFF;
+}
+
+
 
 /* =================section-3============== */
 .section-3 {
@@ -355,10 +707,30 @@ button {
     border: none;
 }
 
-/* .input {
-    padding-top: 65px;
-} */
 
 .header-wrapper p {
     color: #FFF;
+}
+
+.footer {
+    background-color: black;
+    padding: 34px 0;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.links a {
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-right: 44px;
 }

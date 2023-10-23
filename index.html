@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body>
@@ -49,7 +51,7 @@
                     Purchase
                 </a>
             </nav>
-            <button>
+            <button class="search">
                 <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M11.8125 11.2762L15.7567 15.4843C16.0904 15.8403 16.0794 16.4079 15.7326 16.7502C15.5694 16.9114 15.3544 17 15.1278 17C14.8883 17 14.6649 16.9024 14.4988 16.7255L10.5246 12.4854C9.39609 13.299 8.07619 13.7275 6.69113 13.7275C3.0017 13.7275 0 10.6484 0 6.86374C0 3.07913 3.0017 0 6.69113 0C10.3806 0 13.3823 3.07913 13.3823 6.86374C13.3823 8.48359 12.8266 10.0396 11.8125 11.2762ZM11.6367 6.86374C11.6367 4.06632 9.4182 1.79054 6.69113 1.79054C3.96406 1.79054 1.74551 4.06632 1.74551 6.86374C1.74551 9.66117 3.96406 11.9369 6.69113 11.9369C9.4182 11.9369 11.6367 9.66117 11.6367 6.86374Z"
@@ -57,14 +59,20 @@
                 </svg>
             </button>
         </div>
+        <button class="burger">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                style="fill: #fff(0, 0, 0, 1);transform: msFilter">
+                <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+            </svg>
+        </button>
     </header>
     <main>
         <!-- section-1  -->
-        <section>
+        <section class="section1">
             <div class="container">
                 <div class="row">
                     <div class="col-4">
-                        <div class="box">
+                        <div class="box bitmap">
                             <button class="box-button">
                                 Vehicle
                             </button>
@@ -295,65 +303,67 @@
                         </defs>
                     </svg>
                 </div>
-                <div class="most popular">
+                <div class="most-popular">
                     <h2 class="card-popular">
                         Most popular
                     </h2>
                     <div class="row">
                         <div class="col-3">
-                            <div class="box-mini-cards">
+                            <div class="box mini-card">
                                 <div class="bmw-pop">
                                     <button class="bmw-button">BMW</button>
                                 </div>
-                                <img src="./assets/Bitmap (10).png" alt="">
-                                <h2 class="heading">
-                                    One of Saturn’s largest rings may be newer than anyone
-                                    </h3>
+                                <div class="mini-card">
+                                    <img src="./assets/Bitmap (10).png" alt="">
+                                    <h2 class="heading">
+                                        One of Saturn’s largest rings may be newer than anyone
+                                    </h2>
                                     <p class="article-rickie">
                                         Rickie Baroch - June 6, 2019
                                     </p>
+                                </div>
                             </div>
                         </div>
                         <div class="col-3">
-                            <div class="box-mini-cards">
-                                <div class="bmw-pop">
-                                    <button class="bmw-button">BMW</button>
-                                </div>
+                            <div class="bmw-pop">
+                                <button class="bmw-button">BMW</button>
+                            </div>
+                            <div class="mini-card">
                                 <img src="./assets/Bitmap (11).png" alt="">
                                 <h2 class="heading">
                                     One of Saturn’s largest rings may be newer than anyone
-                                    </h3>
-                                    <p class="article-rickie">
-                                        Rickie Baroch - June 6, 2019
-                                    </p>
+                                </h2>
+                                <p class="article-rickie">
+                                    Rickie Baroch - June 6, 2019
+                                </p>
                             </div>
                         </div>
                         <div class="col-3">
-                            <div class="box-mini-cards">
-                                <div class="bmw-pop">
-                                    <button class="bmw-button">BMW</button>
-                                </div>
+                            <div class="bmw-pop">
+                                <button class="bmw-button">BMW</button>
+                            </div>
+                            <div class="mini-card">
                                 <img src="./assets/Bitmap (12).png" alt="">
                                 <h2 class="heading">
                                     One of Saturn’s largest rings may be newer than anyone
-                                    </h3>
-                                    <p class="article-rickie">
-                                        Rickie Baroch - June 6, 2019
-                                    </p>
+                                </h2>
+                                <p class="article-rickie">
+                                    Rickie Baroch - June 6, 2019
+                                </p>
                             </div>
                         </div>
                         <div class="col-3">
-                            <div class="box-mini-cards">
-                                <div class="bmw-pop">
-                                    <button class="bmw-button">BMW</button>
-                                </div>
+                            <div class="bmw-pop">
+                                <button class="bmw-button">BMW</button>
+                            </div>
+                            <div class="mini-card">
                                 <img src="./assets/Bitmap (13).png" alt="">
                                 <h2 class="heading">
                                     One of Saturn’s largest rings may be newer than anyone
-                                    </h3>
-                                    <p class="article-rickie">
-                                        Rickie Baroch - June 6, 2019
-                                    </p>
+                                </h2>
+                                <p class="article-rickie">
+                                    Rickie Baroch - June 6, 2019
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -475,10 +485,11 @@
             </div>
         </section>
     </main>
-    <footer class="header">
-        <div class="container header-wrapper">
-            <p>@2019 Logwork. All Right Reserved.</p>
-            <nav class="nav">
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <p>@2019 Logwork. All Right Reserved.</p>
+            <div class="links">
                 <a href="#">
                     Home
                 </a>
@@ -494,7 +505,8 @@
                 <a href="#">
                     Purchase
                 </a>
-            </nav>
+            </div>
+            </div>
         </div>
     </footer>
     </div>

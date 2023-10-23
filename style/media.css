@@ -1,0 +1,145 @@
+@media (max-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .container .col-4 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .box-mini-cards {
+        margin: 0 auto;
+    }
+
+    .bitmap img {
+        object-fit: contain;
+        width: 100%;
+    }
+
+    .burger {
+        background-color: none;
+        display: block;
+        margin: 0;
+    }
+
+    .mini-card img {
+        width: 100%;
+    }
+
+    .box-mini-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .most-popular .col-3 {
+        width: 50%;
+    }
+
+    .bitmap {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .col-8 {
+        width: 100%;
+    }
+
+    .carousel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    .nav {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .card-1 {
+        height: 455px;
+        width: 650px;
+    }
+
+    .car-button {
+        width: 610px;
+    }
+
+    .car-button p {
+        width: 5px;
+    }
+
+    .car-button {
+        margin-top: 25px;
+    }
+
+    .section-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:762px) {
+    .container {
+        max-width: 740px;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .col-6 .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .most-popular .col-3 {
+        width: 100%;
+    }
+
+    .text-car {
+        width: 425px;
+        font-size: 30px;
+    }
+
+    .container .col-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mini-card img {
+        width: 60%;
+    }
+
+    .most-popular .heading {
+        width: 60%;
+    }
+
+    .section-3 {
+        width: 100%;
+    }
+}
+
+@media (max-width:529px) { 
+        .container {
+            max-width: none;
+        }
+
+        .footer{
+            display: block;
+            text-align: center;
+        }
+
+        .most-popular .col-3 {
+            width: 100%;
+        }
+    }
